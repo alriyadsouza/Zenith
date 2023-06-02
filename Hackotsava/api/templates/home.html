@@ -2,9 +2,43 @@
 <html>
 <head>
     <title>Suitability Prediction</title>
+    <style>
+        .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 200px;
+}
+
+@media (max-width: 317px) {
+  .item {
+    flex-basis: 100%;
+  }
+}
+        .name {
+            overflow: hidden; /* Hides the overflow of characters */
+            white-space: nowrap; /* Prevents line breaks */
+            border-right: .15em solid orange; /* Creates a blinking cursor */
+            font-size: 10px;
+            font-family: monospace;
+            animation: typing 10s steps(45) infinite;
+            color:white;
+        }
+        
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        body{
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Suitability Prediction</h1>
+    <div class = "container">
+    <h1 class="name">Suitability Prediction</h1>
     <form action="/predict" method="post">
         <label for="District">District:</label>
         <select name="District" id ="District" onchange="func()">
@@ -213,5 +247,6 @@
         }
     
         </script>
+        </div>
 </body>
 </html>

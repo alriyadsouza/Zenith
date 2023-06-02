@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'dart:convert';
 import 'package:industria_hub/screens/location_screen.dart';
 import 'networking.dart';
 

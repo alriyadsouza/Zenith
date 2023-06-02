@@ -1,8 +1,5 @@
-import '../screens/location_screen.dart';
-import '../services/networking.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'location_screen.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'starting_page.dart';
 

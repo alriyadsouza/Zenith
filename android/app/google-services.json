@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913271261955",
+    "project_id": "industriahub-acc9d",
+    "storage_bucket": "industriahub-acc9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913271261955:android:75d2a2545d22b7f10bf736",
+        "android_client_info": {
+          "package_name": "com.zenith.industria_hub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913271261955-ugmqtb8g89gb7a33bfr2om8h57752k76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk1OD1CZz9zi7NNhTO05LO4WrOFk-je0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913271261955-ugmqtb8g89gb7a33bfr2om8h57752k76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

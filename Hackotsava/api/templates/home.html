@@ -2,43 +2,9 @@
 <html>
 <head>
     <title>Suitability Prediction</title>
-    <style>
-        .container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.item {
-  flex: 1 1 200px;
-}
-
-@media (max-width: 317px) {
-  .item {
-    flex-basis: 100%;
-  }
-}
-        .name {
-            overflow: hidden; /* Hides the overflow of characters */
-            white-space: nowrap; /* Prevents line breaks */
-            border-right: .15em solid orange; /* Creates a blinking cursor */
-            font-size: 10px;
-            font-family: monospace;
-            animation: typing 10s steps(45) infinite;
-            color:white;
-        }
-        
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-        body{
-            background-color: black;
-        }
-    </style>
 </head>
 <body>
-    <div class = "container">
-    <h1 class="name">Suitability Prediction</h1>
+    <h1>Suitability Prediction</h1>
     <form action="/predict" method="post">
         <label for="District">District:</label>
         <select name="District" id ="District" onchange="func()">
@@ -945,9 +911,9 @@
                 distancetocoastlineInput.value = "250";
                 groundwateravailabilityInput.value = "12";
                 ElevationInput.value = "588";
-                SoilsalinityInput.value = "0.4";
-                IndustrialPollutionInput.value = "0.3";
-                WaterQualityInput.value = "0.7";
+                SoilsalinityInput.value = "0.3";
+                IndustrialPollutionInput.value = "0.2";
+                WaterQualityInput.value = "0.6";
             }
             else if (region === "Kundgol") {
                 populationInput.value = "71495";
@@ -971,19 +937,165 @@
                 IndustrialPollutionInput.value = "0.3";
                 WaterQualityInput.value = "0.5";
             }
-            else if (region === "Navalgund") {
-                populationInput.value = "59232";
+            else if (region === "Annigeri") {
+                populationInput.value = "50319";
                 annualrainfallInput.value = "1182";
-                averagetemperatureInput.value = "27.2";
+                averagetemperatureInput.value = "27.4";
                 distancetocoastlineInput.value = "250";
                 groundwateravailabilityInput.value = "12";
-                ElevationInput.value = "637";
+                ElevationInput.value = "650";
+                SoilsalinityInput.value = "0.4";
+                IndustrialPollutionInput.value = "0.2";
+                WaterQualityInput.value = "0.7";
+            }
+            else if (region === "Kundapur") {
+                populationInput.value = "41678";
+                annualrainfallInput.value = "1182";
+                averagetemperatureInput.value = "27.1";
+                distancetocoastlineInput.value = "250";
+                groundwateravailabilityInput.value = "12";
+                ElevationInput.value = "615";
+                SoilsalinityInput.value = "0.3";
+                IndustrialPollutionInput.value = "0.3";
+                WaterQualityInput.value = "0.6";
+            }
+            else if (region === "Gadag-Betigeri") {
+                populationInput.value = "1064571";
+                annualrainfallInput.value = "659";
+                averagetemperatureInput.value = "27.7";
+                distancetocoastlineInput.value = "224";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "567";
+                SoilsalinityInput.value = "0.5";
+                IndustrialPollutionInput.value = "0.4";
+                WaterQualityInput.value = "0.7";
+            }
+            else if (region === "Mundargi") {
+                populationInput.value = "45237";
+                annualrainfallInput.value = "659";
+                averagetemperatureInput.value = "27.5";
+                distancetocoastlineInput.value = "224";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "580";
+                SoilsalinityInput.value = "0.3";
+                IndustrialPollutionInput.value = "0.2";
+                WaterQualityInput.value = "0.6";
+            }
+            else if (region === "Nargund") {
+                populationInput.value = "30591";
+                annualrainfallInput.value = "659";
+                averagetemperatureInput.value = "27.4";
+                distancetocoastlineInput.value = "224";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "572";
                 SoilsalinityInput.value = "0.4";
                 IndustrialPollutionInput.value = "0.3";
                 WaterQualityInput.value = "0.5";
             }
+            else if (region === "Ron") {
+                populationInput.value = "22693";
+                annualrainfallInput.value = "659";
+                averagetemperatureInput.value = "27.6";
+                distancetocoastlineInput.value = "224";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "586";
+                SoilsalinityInput.value = "0.3";
+                IndustrialPollutionInput.value = "0.2";
+                WaterQualityInput.value = "0.8";
+            }
+            else if (region === "Shirhatti") {
+                populationInput.value = "21131";
+                annualrainfallInput.value = "659";
+                averagetemperatureInput.value = "27.3";
+                distancetocoastlineInput.value = "224";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "595";
+                SoilsalinityInput.value = "0.5";
+                IndustrialPollutionInput.value = "0.4";
+                WaterQualityInput.value = "0.6";
+            }
+            else if (region === "Hassan") {
+                populationInput.value = "1776221";
+                annualrainfallInput.value = "1302";
+                averagetemperatureInput.value = "26.1";
+                distancetocoastlineInput.value = "100";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "960";
+                SoilsalinityInput.value = "0.6";
+                IndustrialPollutionInput.value = "0.3";
+                WaterQualityInput.value = "0.7";
+            }
+            else if (region === "Arsikere") {
+                populationInput.value = "54149";
+                annualrainfallInput.value = "1302";
+                averagetemperatureInput.value = "26.3";
+                distancetocoastlineInput.value = "100";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "814";
+                SoilsalinityInput.value = "0.4";
+                IndustrialPollutionInput.value = "0.2";
+                WaterQualityInput.value = "0.6";
+            }
+            else if (region === "Belur") {
+                populationInput.value = "36681";
+                annualrainfallInput.value = "1302";
+                averagetemperatureInput.value = "26.4";
+                distancetocoastlineInput.value = "100";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "955";
+                SoilsalinityInput.value = "0.5";
+                IndustrialPollutionInput.value = "0.3";
+                WaterQualityInput.value = "0.8";
+            }
+            else if (region === "Sakleshpur") {
+                populationInput.value = "36132";
+                annualrainfallInput.value = "1302";
+                averagetemperatureInput.value = "26.2";
+                distancetocoastlineInput.value = "100";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "949";
+                SoilsalinityInput.value = "0.4";
+                IndustrialPollutionInput.value = "0.3";
+                WaterQualityInput.value = "0.6";
+            }
+            else if (region === "Channarayapatna") {
+                populationInput.value = "45918";
+                annualrainfallInput.value = "1302";
+                averagetemperatureInput.value = "26";
+                distancetocoastlineInput.value = "100";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "920";
+                SoilsalinityInput.value = "0.6";
+                IndustrialPollutionInput.value = "0.4";
+                WaterQualityInput.value = "0.7";
+            }
+            else if (region === "Haveri") {
+                populationInput.value = "1597664";
+                annualrainfallInput.value = "652";
+                averagetemperatureInput.value = "27.5";
+                distancetocoastlineInput.value = "200";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "565";
+                SoilsalinityInput.value = "0.4";
+                IndustrialPollutionInput.value = "0.2";
+                WaterQualityInput.value = "0.6";
+            }
+            else if (region === "Ranebennur") {
+                populationInput.value = "94258";94258,652,27.3,200,10,581,0.3,0.1,0.8,1
+                annualrainfallInput.value = "652";
+                averagetemperatureInput.value = "27.3";
+                distancetocoastlineInput.value = "200";
+                groundwateravailabilityInput.value = "10";
+                ElevationInput.value = "581";
+                SoilsalinityInput.value = "0.3";
+                IndustrialPollutionInput.value = "0.1";
+                WaterQualityInput.value = "0.8";
+            }
+           
+
+
             
-            
+        
             
             
             

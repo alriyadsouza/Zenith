@@ -13,7 +13,7 @@ class market extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Investment',
+      title: 'Market Analysis',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
       ),

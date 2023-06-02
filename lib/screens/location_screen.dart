@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:industria_hub/utilities/constants.dart';
 import 'package:industria_hub/services/weather.dart';
-import '../services/news.dart';
 import 'city_screen.dart';
 import 'package:industria_hub/screens/appbar/profile.dart';
 
 import 'markets/market.dart';
-import 'market/main.dart';
 
 class LocationScreen extends StatefulWidget {
   final locationWeather;

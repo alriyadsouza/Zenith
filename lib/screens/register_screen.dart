@@ -6,8 +6,7 @@ import 'package:industria_hub/services/networking.dart';
 
 class RegisterScreen extends StatelessWidget {
 
-  String emaill
-  S
+  late String email;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

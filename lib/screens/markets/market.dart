@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         backgroundColor: Colors.grey.shade500,
         title: Text(
-          'Investment',
+          'Market Analysis',
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,

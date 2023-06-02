@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suitability Prediction</title>
+</head>
+<body>
+    <h1>Suitability Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="District">District:</label>
+        <select name="District" id ="District" onchange="func()">
+            <option value="sc">select District</option>
+            <option value ="Bagalkot">Bagalkot</option>
+            <option value ="Bellary">Bellary</option>
+            <option value ="Belagavi">Belagavi</option>
+            <option value ="Bengaluru Rural">Bengaluru Rural</option>
+            <option value ="Bengaluru Urban">Bengaluru Urban</option>
+            <option value ="Bidar">Bidar</option>
+            <option value ="Chamarajanagar">Chamarajanagar</option>
+            <option value ="Chikkamagaluru">Chikkamagaluru</option>
+            <option value ="Chikkaballapura">Chikkaballapura</option>
+            <option value ="Chitradurga">Chitradurga</option>
+            <option value ="Dakshina Kannada">Dakshina Kannada</option>
+            <option value ="Davanagere">Davanagere</option>
+            <option value ="Dharwad">Dharwad</option>
+            <option value ="Gadag">Gadag</option>
+            <option value ="Hassan">Hassan</option>
+            <option value ="Haveri">Haveri</option>
+            <option value ="Kalaburagi">Kalaburagi</option>
+            <option value ="Kodagu">Kodagu</option>
+            <option value ="Kolar">Kolar</option>
+            <option value ="Koppal">Koppal</option>
+            <option value ="Mandya">Mandya</option>
+            <option value ="Mysuru">Mysuru</option>
+            <option value ="Raichur">Raichur</option>
+            <option value ="Ramanagara">Ramanagara</option>
+            <option value ="Shivamogga">Shivamogga</option>
+            <option value ="Tumakuru">Tumakuru</option>
+            <option value ="Udupi">Udupi</option>
+            <option value ="Uttara Kannada">Uttara Kannada</option>
+            <option value ="Vijayapura">Vijayapura</option>
+            <option value ="Yadgir">Yadgir</option>
+    
+
+        </select>
+    </br>
+        <label for="Region">Region:</label>
+        <select name="Region" id="output" onchange="populatePopulation()">
+            <option value="ss">Select Region</option>
+
+        </select>
+    </br>
+        
+        
+    <label for="Population">Population:</label>
+    <input type="number" name="Population" id="Population" value="" placeholder="Enter Population">
+</br>
+
+        <label for="rainfall">Annual Rainfall:</label>
+        <input type="number" name="AnnualRainfall" id="rainfall" value=""><br>
+
+        <label for="temperature">Average Temperature:</label>
+        <input type="number" name="AverageTemperature" id="temperature" step="0.01" value=""  required><br>
+
+        <label for="coastline">Distance to Coastline:</label>
+        <input type="number" name="DistancetoCoastline" id="coastline" value=""><br>
+
+        <label for="groundwater">Groundwater Availability:</label>
+        <input type="number" name="GroundwaterAvailability" id="groundwater" value=""><br>
+
+        <label for="elevation">Elevation:</label>
+        <input type="number" name="Elevation" id="elevation" value=""><br>
+
+        <label for="salinity">Soil Salinity:</label>
+        <input type="number" name="SoilSalinity" id="salinity" step="0.01" value=""><br>
+
+        <label for="pollution">Industrial Pollution Index:</label>
+        <input type="number" name="IndustrialPollutionIndex" id="pollution" step="0.01" value=""><br>
+
+        <label for="water-quality">Water Quality Index:</label>
+        <input type="number" name="WaterQualityIndex" id="waterquality" step="0.01" value=""><br>
+
+        <input type="submit" value="Predict">
+    </form>
+    <script>
+        function func()
+        {
+          var a=document.getElementById('District').value;
+          {
+            if (a=="Bagalkot")
+            {
+                var array=["Select Region","Bagalkot City","Badami","Guledgudda","Jamakhandi","Mudhol","Rabkavi Banhatti","Terdal"];
+            }
+            else if(a=="Bellary")
+            {
+                var array=["Select Region","Bellary City","Hospet","Kudligi","Siruguppa","Kampli","Sandur"];
+            }
+            else if(a=="Belagavi")
+            {
+                var array=["Select Region","Belagavi City","Athani","Gokak","Hukkeri","Khanapur","Ramdurg","Saundatti-Yellamma"];
+            }
+            else if(a=="Bengaluru Rural")
+            {
+                var array=["Select Region","Bengaluru Rural","Doddaballapura","Hoskote","Devanahalli","Nelamangala"];
+            }
+            else if(a=="Bengaluru Urban")
+            {
+                var array=["Select Region","Bengaluru Urban","Bengaluru City","Yelahanka","Whitefield","Koramangala"];
+            }
+            else if(a=="Bidar")
+            {
+                var array=["Select Region","Bidar","Aurad","Basavakalyan","Bhalki","Homnabad"];
+            }
+             else if(a=="Chikkamagaluru")
+            {
+                var array=["Select Region","Chikkamagaluru City","Kadur","Mudigere","Tarikere"];
+            } 
+            else if (a == "Chikkaballapura") {
+    var array = ["Select Region", "Chikkaballapura City", "Bagepalli", "Chintamani", "Gauribidanur", "Gudibande", "Sidlaghatta"];
+} else if (a == "Chitradurga") {
+    var array = ["Select Region", "Chitradurga City", "Challakere", "Holalkere", "Hiriyur", "Molakalmuru"];
+} else if (a == "Dakshina Kannada") {
+    var array = ["Select Region", "Mangalore", "Puttur", "Sullia", "Bantwal"];
+} else if (a == "Davanagere") {
+    var array = ["Select Region", "Davanagere City", "Channagiri", "Harihar", "Honnali", "Jagalur"];
+} else if (a == "Dharwad") {
+    var array = ["Select Region", "Dharwad City", "Hubli", "Kalghatgi", "Kundgol", "Navalgund"];
+} else if (a == "Gadag") {
+    var array = ["Select Region", "Gadag-Betigeri", "Gajendragad", "Lakshmeshwar", "Mundargi", "Nargund"];
+} else if (a == "Hassan") {
+    var array = ["Select Region", "Hassan City", "Arsikere", "Belur", "Channarayapatna", "Sakleshpur"];
+} else if (a == "Haveri") {
+    var array = ["Select Region", "Haveri City", "Byadgi", "Hangal", "Ranebennuru", "Savanur"];
+} else if (a == "Kalaburagi") {
+    var array = ["Select Region", "Kalaburagi City", "Afzalpur", "Chincholi", "Chitapur", "Jevargi", "Sedam"];
+} else if (a == "Kodagu") {
+    var array = ["Select Region", "Madikeri", "Somwarpet", "Virajpet"];
+} else if (a == "Kolar") {
+    var array = ["Select Region", "Kolar City", "Bangarpet", "Malur", "Mulbagal", "Srinivaspur"];
+} else if (a == "Koppal") {
+    var array = ["Select Region", "Koppal", "Gangawati", "Kushtagi", "Yelburga"];
+} else if (a == "Mandya") {
+    var array = ["Select Region", "Mandya City", "Malavalli", "Maddur", "Nagamangala", "Pandavapura", "Srirangapatna"];
+} else if (a == "Mysuru") {
+    var array = ["Select Region", "Mysuru City", "Hunsur", "Krishnarajanagara", "Nanjangud", "Piriyapatna", "T.Narasipura"];
+} else if (a == "Raichur") {
+    var array = ["Select Region", "Raichur City", "Devadurga", "Lingsugur", "Manvi", "Maski"];
+} else if (a == "Ramanagara") {
+    var array = ["Select Region", "Ramanagara", "Channapatna", "Kanakapura", "Magadi"];
+} else if (a == "Shivamogga") {
+    var array = ["Select Region", "Shivamogga City", "Bhadravathi", "Sagar", "Shikaripura", "Soraba", "Thirthahalli"];
+} else if (a == "Tumakuru") {
+    var array = ["Select Region", "Tumakuru City", "Chikkanayakanahalli", "Gubbi", "Koratagere", "Madhugiri", "Pavagada", "Sira", "Tiptur", "Turuvekere"];
+} else if (a == "Udupi") {
+    var array = ["Select Region", "Udupi City", "Karkala", "Kundapura"];
+} else if (a == "Uttara Kannada") {
+    var array = ["Select Region", "Karwar", "Dandeli", "Honnavar", "Joida", "Kumta", "Mundgod", "Siddapur", "Sirsi", "Yellapur"];
+} else if (a == "Vijayapura") {
+    var array = ["Select Region", "Vijayapura City", "Bijapur", "Indi", "Muddebihal", "Sindgi", "Talikote"];
+} else if (a == "Yadgir") {
+    var array = ["Select Region", "Yadgir City", "Gurmatkal", "Shahapur", "Shorapur"];
+}
+           
+            else{
+                var array=[];
+            }
+          
+          var string="";
+          for(i=0;i<array.length;i++)
+          {
+            string=string+"<option>"+array[i]+"</option>";
+          }
+          document.getElementById('output').innerHTML="<select>"+string+"</select>";
+
+        }
+        }
+        function populatePopulation() {
+            var region = document.getElementById("output").value;
+            var populationInput = document.getElementById("Population");
+            var annualrainfallInput = document.getElementById("rainfall");
+            var averagetemperatureInput = document.getElementById("temperature");
+            var distancetocoastlineInput = document.getElementById("coastline");
+            var groundwateravailabilityInput = document.getElementById("groundwater");
+            var ElevationInput = document.getElementById("elevation");
+            var SoilsalinityInput = document.getElementById("salinity");
+            var IndustrialPollutionInput = document.getElementById("pollution");
+            var WaterQualityInput = document.getElementById("waterquality");
+
+            if (region === "Bagalkot City") {
+                populationInput.value = "1889752";
+                annualrainfallInput.value = "758";
+                averagetemperatureInput.value = "27.5";
+                distancetocoastlineInput.value = "238";
+                groundwateravailabilityInput.value = "18";
+                ElevationInput.value = "547";
+                SoilsalinityInput.value = "0.4";
+                IndustrialPollutionInput.value = "0.3";
+                WaterQualityInput.value = "0.6";
+
+
+            } else if (region === "Badami") {
+                populationInput.value = "52031"; 
+            }
+         else if (region === "Guledgudda") {
+                populationInput.value = "30541"; 
+            }
+            else if (region === "Jamakhandi") {
+                populationInput.value = "87135"; 
+            }
+            else if (region === "Mudhol") {
+                populationInput.value = "26929"; 
+            }
+            // Add more population values for other regions as needed
+        }
+    
+        </script>
+</body>
+</html>

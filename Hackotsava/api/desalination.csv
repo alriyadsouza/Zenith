@@ -1,0 +1,156 @@
+District,Region,Population,Annual Rainfall (mm),Average Temperature (°C),Distance to Coastline (km),Groundwater Availability (m),Elevation (m),Soil Salinity,Industrial Pollution Index,Water Quality Index,Suitability
+Bagalkot,Bagalkot City,1889752,758,27.5,238,18,547,0.4,0.3,0.6,1
+Bagalkot,Badami,52031,735,27,238,20,530,0.5,0.2,0.7,1
+Bagalkot,Guledgudda,30541,675,26.8,238,15,520,0.4,0.3,0.6,1
+Bagalkot,Jamakhandi,87135,800,28.2,238,18,550,0.4,0.4,0.6,1
+Bagalkot,Mudhol,26929,700,27.1,238,20,510,0.3,0.2,0.7,1
+Bagalkot,Rabkavi Banhatti,35412,758,27.5,238,18,545,0.4,0.3,0.6,1
+Bagalkot,Terdal,30124,690,27.3,238,20,560,0.5,0.4,0.7,1
+Bellary,Bellary City,2532383,632,28.7,357,12,450,0.5,0.2,0.8,1
+Bellary,Hospet,313459,550,29.1,357,15,480,0.6,0.3,0.7,1
+Bellary,Kudligi,127560,710,27.9,357,10,450,0.4,0.2,0.6,1
+Bellary,Siruguppa,95721,900,26.5,357,18,420,0.4,0.3,0.8,1
+Bellary,Kampli,84731,650,28.3,357,12,430,0.5,0.2,0.7,1
+Bellary,Sandur,67892,780,27.1,357,15,460,0.4,0.3,0.6,1
+Belagavi,Belagavi City,488292,738,27.9,150,10,747,0.35,0.25,0.8,1
+Belagavi,Athani,34175,650,28.4,150,10,657,0.45,0.15,0.7,1
+Belagavi,Gokak,133227,790,27.6,150,12,583,0.4,0.2,0.6,1
+Belagavi,Hukkeri,27453,620,28.3,150,11,570,0.4,0.18,0.7,1
+Belagavi,Khanapur,25143,700,27.8,150,10,820,0.32,0.22,0.6,1
+Belagavi,Ramdurg,18962,680,27.5,150,9,742,0.38,0.17,0.5,0
+Belagavi,Saundatti-Yellamma,36755,800,27.7,150,11,688,0.42,0.28,0.8,1
+Bengaluru Rural,Bengaluru Rural,987257,938,28.5,350,10,930,0.7,0.3,0.6,0
+Bengaluru Rural,Doddaballapura,300002,950,28.3,350,8,900,0.6,0.4,0.7,1
+Bengaluru Rural,Hoskote,263759,920,28.6,350,10,910,0.7,0.3,0.6,1
+Bengaluru Rural,Devanahalli,208756,950,28.2,350,10,930,0.7,0.4,0.7,1
+Bengaluru Rural,Nelamangala,214740,900,28.4,350,12,920,0.6,0.3,0.6,1
+Bengaluru Urban,Bengaluru Urban,1243983,930,28.6,350,10,914,0.8,0.4,0.6,0
+Bengaluru Urban,Bengaluru City,987654,950,28.8,350,12,920,0.9,0.3,0.7,1
+Bengaluru Urban,Yelahanka,264583,940,28.5,350,10,900,0.8,0.4,0.6,1
+Bengaluru Urban,Whitefield,189765,910,28.9,350,8,930,0.7,0.3,0.7,1
+Bengaluru Urban,Koramangala,135678,920,28.7,350,10,920,0.8,0.4,0.6,1
+Bidar,Bidar,1703300,901,27.4,411,25,622,0.3,0.2,0.8,1
+Bidar,Aurad,236534,910,27.5,411,22,620,0.3,0.2,0.8,1
+Bidar,Basavakalyan,135678,920,27.3,411,20,640,0.4,0.3,0.7,1
+Bidar,Bhalki,198765,880,27.6,411,25,610,0.2,0.2,0.9,1
+Bidar,Homnabad,175432,890,27.4,411,22,630,0.3,0.2,0.8,1
+Chamarajanagar,Chamarajanagar City,1020819,733,25.5,653,15,741,0.4,0.4,0.5,0
+Chamarajanagar,Gundlupet,84967,733,25.5,653,15,725,0.4,0.4,0.5,1
+Chamarajanagar,Kollegal,73698,733,25.5,653,15,680,0.4,0.4,0.5,1
+Chikkamagaluru,Chikkamagaluru City,1278500,2100,25.2,100,20,1100,0.3,0.5,0.8,1
+Chikkamagaluru,Kadur,39600,1800,24.8,100,15,800,0.5,0.4,0.7,1
+Chikkamagaluru,Mudigere,75420,3000,23.6,100,18,950,0.4,0.6,0.9,1
+Chikkamagaluru,Tarikere,52030,1600,25.6,100,17,850,0.2,0.3,0.6,1
+Chikkaballapura,Chikkaballapura City,1453600,800,28.5,396,10,890,0.3,0.4,0.7,1
+Chikkaballapura,Bagepalli,52600,650,29.2,396,15,780,0.5,0.3,0.6,1
+Chikkaballapura,Gauribidanur,41230,700,28.8,396,12,810,0.4,0.2,0.8,1
+Chikkaballapura,Gudibande,27900,600,28.1,396,13,760,0.2,0.5,0.7,1
+Chikkaballapura,Sidlaghatta,69120,750,28.9,396,11,830,0.4,0.3,0.6,1
+Chitradurga,Chitradurga City,1658644,625,27.9,343,25,739,0.4,0.3,0.5,0
+Chitradurga,Hiriyur,52389,700,28.2,343,23,605,0.3,0.2,0.8,1
+Chitradurga,Holalkere,26572,650,28.4,343,20,620,0.4,0.3,0.6,1
+Chitradurga,Hosadurga,42158,700,27.8,343,22,726,0.5,0.2,0.8,1
+Chitradurga,Molakalmuru,29847,600,27.6,343,24,673,0.4,0.4,0.7,1
+Dakshina Kannada,Mangalore,2089649,3587,27.8,3,20,27,0.9,0.5,0.9,1
+Dakshina Kannada,Bantwal,375247,3587,28.2,3,19,70,0.8,0.3,0.8,1
+Dakshina Kannada,Belthangady,196323,3587,27.5,3,21,550,0.6,0.4,0.7,1
+Dakshina Kannada,Moodbidri,107998,3587,28.1,3,19,43,0.7,0.2,0.8,1
+Dakshina Kannada,Puttur,308990,3587,27.9,3,20,310,0.8,0.3,0.8,1
+Davanagere,Davanagere,1945492,636,27.5,172,12,602,0.4,0.3,0.8,1
+Davanagere,Harihara,134432,636,27.8,172,12,570,0.5,0.2,0.7,1
+Davanagere,Honnali,85743,636,27.2,172,12,655,0.4,0.3,0.6,1
+Davanagere,Channagiri,71589,636,27.5,172,12,595,0.3,0.4,0.7,1
+Davanagere,Harapanahalli,65312,636,27.3,172,12,546,0.5,0.2,0.8,1
+Davanagere,Jagalur,57822,636,27.6,172,12,550,0.4,0.3,0.6,1
+Dharwad,Dharwad,1847023,1182,27.2,250,12,671,0.3,0.2,0.8,1
+Dharwad,Hubli,1573625,1182,27.5,250,12,670,0.4,0.3,0.7,1
+Dharwad,Kalghatgi,82943,1182,27.1,250,12,588,0.3,0.2,0.6,1
+Dharwad,Kundgol,71495,1182,27.3,250,12,642,0.5,0.3,0.6,1
+Dharwad,Navalgund,59232,1182,27.2,250,12,637,0.4,0.3,0.5,1
+Dharwad,Annigeri,50319,1182,27.4,250,12,650,0.4,0.2,0.7,1
+Dharwad,Kundapur,41678,1182,27.1,250,12,615,0.3,0.3,0.6,1
+Gadag,Gadag-Betigeri,1064571,659,27.7,224,10,567,0.5,0.4,0.7,1
+Gadag,Mundargi,45237,659,27.5,224,10,580,0.3,0.2,0.6,1
+Gadag,Nargund,30591,659,27.4,224,10,572,0.4,0.3,0.5,1
+Gadag,Ron,22693,659,27.6,224,10,586,0.3,0.2,0.8,1
+Gadag,Shirhatti,21131,659,27.3,224,10,595,0.5,0.4,0.6,1
+Hassan,Hassan,1776221,1302,26.1,100,10,960,0.6,0.3,0.7,1
+Hassan,Arsikere,54149,1302,26.3,100,10,814,0.4,0.2,0.6,1
+Hassan,Belur,36681,1302,26.4,100,10,955,0.5,0.3,0.8,1
+Hassan,Sakleshpur,36132,1302,26.2,100,10,949,0.4,0.3,0.6,1
+Hassan,Channarayapatna,45918,1302,26,100,10,920,0.6,0.4,0.7,1
+Haveri,Haveri,1597664,652,27.5,200,10,565,0.4,0.2,0.6,1
+Haveri,Ranebennur,94258,652,27.3,200,10,581,0.3,0.1,0.8,1
+Haveri,Savanur,59541,652,27.1,200,10,567,0.5,0.3,0.6,1
+Haveri,Byadgi,39487,652,27.4,200,10,580,0.4,0.2,0.7,1
+Haveri,Hanagal,28624,652,27.6,200,10,560,0.5,0.4,0.6,1
+Kalaburagi,Kalaburagi,2562745,724,28.1,495,25,437,0.4,0.4,0.8,1
+Kalaburagi,Afzalpur,79652,724,28,495,25,436,0.3,0.3,0.7,1
+Kalaburagi,Aland,83765,724,27.8,495,25,434,0.5,0.2,0.8,1
+Kalaburagi,Chincholi,60329,724,28.2,495,25,438,0.4,0.3,0.6,1
+Kalaburagi,Chitapur,68947,724,28.1,495,25,436,0.4,0.2,0.7,1
+Kalaburagi,Sedam,75374,724,27.9,495,25,433,0.5,0.3,0.6,1
+Kodagu,Madikeri,43256,3055,21.7,145,10,1255,0.8,0.1,0.9,1
+Kodagu,Somwarpet,26984,3055,21.4,145,10,1178,0.7,0.2,0.8,1
+Kodagu,Virajpet,24773,3055,21.9,145,10,1102,0.6,0.3,0.7,1
+Kolar,Kolar,987451,858,27.4,320,10,879,0.5,0.3,0.6,1
+Kolar,Bangarpet,35428,858,27.3,320,10,852,0.4,0.2,0.7,1
+Kolar,Malur,31197,858,27.6,320,10,866,0.4,0.3,0.6,1
+Kolar,Mulbagal,45231,858,27.2,320,10,843,0.5,0.2,0.7,1
+Kolar,Srinivaspur,51849,858,27.5,320,10,888,0.4,0.3,0.6,1
+Koppal,Koppal,238904,681,27.8,284,15,536,0.4,0.3,0.7,1
+Koppal,Gangavathi,137782,681,28.1,284,15,512,0.3,0.2,0.8,1
+Koppal,Kushtagi,52169,681,27.6,284,15,545,0.4,0.3,0.6,1
+Koppal,Yelburga,31165,681,27.9,284,15,560,0.5,0.2,0.7,1
+Mandya,Mandya City,371657,830,26.7,289,12,678,0.6,0.4,0.5,0
+Mandya,Malavalli,98876,830,27.1,289,12,720,0.4,0.3,0.6,1
+Mandya,Maddur,77389,830,26.9,289,12,660,0.5,0.3,0.6,1
+Mandya,Srirangapatna,29975,830,26.5,289,12,640,0.4,0.2,0.7,1
+Mysuru,Mysuru City,893062,804,25.3,286,18,770,0.4,0.5,0.5,0
+Mysuru,T.Narasipura,40868,804,25.8,286,18,680,0.3,0.2,0.7,1
+Mysuru,Hunsur,72751,804,25.5,286,18,780,0.4,0.3,0.6,1
+Mysuru,K.R.Nagar,54682,804,25.4,286,18,750,0.4,0.2,0.7,1
+Mysuru,Piriyapatna,35643,804,25.6,286,18,700,0.3,0.3,0.6,1
+Raichur,Raichur City,475240,628,28.3,486,25,407,0.3,0.4,0.8,1
+Raichur,Manvi,77732,628,28,486,25,415,0.3,0.3,0.7,1
+Raichur,Lingsugur,62637,628,28.1,486,25,410,0.3,0.2,0.8,1
+Raichur,Sindhanur,67894,628,28.2,486,25,420,0.3,0.4,0.7,1
+Raichur,Devadurga,40315,628,28.3,486,25,390,0.2,0.3,0.6,1
+Raichur,Maski,35219,628,28.4,486,25,400,0.3,0.2,0.8,1
+Ramanagara,Ramanagara City,375971,768,27.2,350,10,661,0.5,0.3,0.6,0
+Ramanagara,Channapatna,122327,768,27.1,350,10,670,0.4,0.2,0.7,1
+Ramanagara,Magadi,99082,768,27,350,10,675,0.4,0.3,0.6,1
+Ramanagara,Kanakapura,100482,768,27.3,350,10,655,0.3,0.2,0.8,1
+Shivamogga,Shivamogga City,405215,2211,25.3,150,10,640,0.7,0.2,0.7,1
+Shivamogga,Bhadravati,162177,2211,25.5,150,10,525,0.6,0.3,0.6,1
+Shivamogga,Tirthahalli,85741,2211,25.2,150,12,600,0.5,0.3,0.7,1
+Shivamogga,Sorab,51642,2211,25.1,150,15,540,0.4,0.2,0.8,1
+Shivamogga,Shikaripura,80293,2211,25.6,150,10,550,0.5,0.3,0.6,1
+Shivamogga,Hosanagara,64128,2211,25.3,150,15,650,0.4,0.2,0.7,1
+Shivamogga,Sagar,84329,2211,25.4,150,15,625,0.5,0.3,0.7,1
+Tumakuru,Tumakuru City,387087,952,26.5,488,15,822,0.5,0.3,0.6,0
+Tumakuru,Tiptur,127444,952,26.2,488,10,827,0.4,0.3,0.7,1
+Tumakuru,Gubbi,81046,952,26.3,488,10,809,0.4,0.2,0.8,1
+Tumakuru,Kunigal,76395,952,26.5,488,10,830,0.5,0.3,0.6,1
+Tumakuru,Pavagada,107899,952,26.6,488,25,635,0.3,0.2,0.8,1
+Tumakuru,Sira,120125,952,26.4,488,10,692,0.4,0.2,0.7,1
+Udupi,Udupi City,268815,3420,27.4,5,10,15,0.8,0.5,0.9,1
+Udupi,Kundapura,111970,3420,27.3,5,10,19,0.7,0.4,0.8,1
+Udupi,Karkala,71549,3420,27.2,5,10,95,0.6,0.3,0.7,1
+Udupi,Brahmavara,53768,3420,27.4,5,10,25,0.6,0.3,0.7,1
+Udupi,Manipal,28579,3420,27.5,5,10,30,0.5,0.4,0.8,1
+Uttara Kannada,Karwar,156847,3489,26.9,5,10,15,0.7,0.5,0.8,1
+Uttara Kannada,Sirsi,104874,3489,26.5,5,15,590,0.6,0.3,0.7,1
+Uttara Kannada,Bhatkal,96857,3489,26.7,5,10,30,0.6,0.4,0.8,1
+Uttara Kannada,Honnavar,78196,3489,26.8,5,10,10,0.5,0.3,0.7,1
+Uttara Kannada,Kumta,64539,3489,26.6,5,10,15,0.5,0.2,0.6,1
+Vijayapura,Vijayapura City,539284,671,27.5,243,12,433,0.4,0.4,0.7,1
+Vijayapura,Indi,68752,671,27.3,243,12,445,0.5,0.3,0.8,1
+Vijayapura,Basavana Bagevadi,37961,671,27.6,243,12,428,0.4,0.2,0.6,1
+Vijayapura,Muddebihal,54152,671,27.5,243,12,440,0.5,0.4,0.8,1
+Vijayapura,Bijapur,47398,671,27.4,243,12,438,0.5,0.3,0.7,1
+Yadgir,Yadgir City,316674,714,28.7,464,12,395,0.5,0.4,0.7,1
+Yadgir,Gurmitkal,45612,714,28.5,464,12,400,0.4,0.3,0.6,1
+Yadgir,Shahpur,39871,714,28.6,464,12,392,0.5,0.2,0.8,1
+Yadgir,Surapur,31849,714,28.7,464,12,398,0.4,0.4,0.7,1
+Yadgir,Yadgir,37462,714,28.6,464,12,396,0.5,0.3,0.8,1
